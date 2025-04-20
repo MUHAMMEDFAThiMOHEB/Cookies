@@ -1,6 +1,6 @@
 # Cookies
 
-Just for Revision !!!
+Just a small projects and challenges as a python Revision !!!
 
-this Repository is just for a Complete Revision on python and Git 
-small and simple programs, some common and some self_thought ones
+this Repository contians a solution of most common begginer friendly problems
+representing a comperhensive revision for all essential topics in programming
