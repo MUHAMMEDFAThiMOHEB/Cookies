@@ -19,4 +19,4 @@ def calc(number):
     return sum(map(int, number))
 
 number = get_user_input()
-print("the summition is ",calc(number))
+print("the summition is ",calc(number)) 
