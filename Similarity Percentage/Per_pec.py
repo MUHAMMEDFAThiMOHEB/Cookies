@@ -34,7 +34,15 @@ def inputs():
     print(f"Text 1 in list = {list(string1)} ~ length = {len(string1)}")
     print(f"Text 2 in list = {list(string2)} ~ length = {len(string2)}")
     return string1, string2
-    
-arg = inputs()
-test = similarity(*arg)
-print(test.operation())
+
+def main():
+    while True:
+        arg = inputs()
+        test = similarity(*arg)
+        print(test.operation())
+        antry = input(f"Do you want to try again ? [Y] Yes, [Any other key] NO ?! ")
+        if antry.lower() not in ("y", "yes"):
+            print("### -- SEE YOU LATER -- ###")
+            break
+
+main()
